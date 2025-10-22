@@ -1,4 +1,5 @@
 import java.awt.*;
+import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import javax.swing.*;
 
@@ -26,4 +27,5 @@ class Canvas extends JPanel {
   public void add(Drawable drawable) {
     drawables.add(drawable);
   }
+
 }
